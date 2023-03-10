@@ -1,9 +1,9 @@
-h2 {
-color: slateblue;
-font-family: 'Cinzel', sans-serif;
+label {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 9em;
+    text-align: center;
 }
-    
-    /* cinzel-700 - latin */
+/* cinzel-700 - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Cinzel';
