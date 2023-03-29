@@ -15,24 +15,24 @@
 }
 .box-1 {
     
-    border: 5px dashed rgb(255, 0, 0);
+    border: 5px dashed rgb(61, 101, 134);
     display:  inline-block;
 
 }
 .box-2 {
     
-    border: 5px solid rgb(25, 0, 0);
+    border: 5px solid rgb(170, 108, 155);
     display: inline-block;
     height: 500px;
 }
 .box-3 {
    
-    border: 5px dotted blue;
+    border: 5px dotted rgb(104, 104, 182);
     display: inline-block;
     height: 500px;
 }
 .box-4 {
-    border: 5px double violet;
+    border: 5px double rgb(160, 129, 61);
     display: inline-block;
     height: 500px;
 }
