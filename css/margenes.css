@@ -1,0 +1,42 @@
+.main-box {
+    display: flex;
+    align-items:flex-start;
+    margin-top: 200px;
+    justify-content: center;
+    flex-direction: row;
+    /*vh: view height */
+    height: 100vh;
+}
+.box-style {
+    width:  300px;
+    margin: 0 40px;
+    padding: 0 25px;
+    background-color: white
+}
+.box-1 {
+    
+    border: 5px dashed rgb(255, 0, 0);
+    display:  inline-block;
+
+}
+.box-2 {
+    
+    border: 5px solid rgb(25, 0, 0);
+    display: inline-block;
+    height: 500px;
+}
+.box-3 {
+   
+    border: 5px dotted blue;
+    display: inline-block;
+    height: 500px;
+}
+.box-4 {
+    border: 5px double violet;
+    display: inline-block;
+    height: 500px;
+}
+p{
+    font-size: 1.4em;  
+    text-align: justify;  
+}
