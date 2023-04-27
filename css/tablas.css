@@ -1,0 +1,54 @@
+.Table-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+table {
+    border-collapse: collapse;
+    font-family: sans-serif;
+
+}
+th, td {
+    border: 1px solid white;
+    padding:  15px 25px;
+    text-align: center;
+        
+}
+.th-lightcoral {
+    background-color:lightcoral;
+    color: white;
+}    
+.x-style {
+    color: red
+}
+.bg-cadetblue {
+    background-color: cadetblue;
+    color: white;
+}
+.th-lightcoral-1 {
+    border-top-left-radius: 20px;
+    background-color: lightcoral;
+    color: white;
+}
+.th-lightcoral-2 {
+    border-top-right-radius: 20px;
+    background-color: lightcoral;
+    color: white;
+}
+.bg-cadetblue-1 {
+    border-bottom-left-radius : 20px;
+    background-color: cadetblue;
+    color: white;
+}
+.bg-mistyrose {
+    background-color: mistyrose;
+    color: white;
+}
+.bg-mistyrose-1 {
+    border-bottom-right-radius : 20px;
+    background-color: mistyrose;
+    color: white;
+
+}
