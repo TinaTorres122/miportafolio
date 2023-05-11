@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-nav {
+    background-color: rgb(64, 64, 64);
+    color: white;
+    height: 80px;
+    width:100%
+}
+.main-menu{
+    background-color: rgb(68, 70, 80);
+    color: white;
+    height: 80px;
+    font-size: 1.7em;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-align: center;
+}
+.item-style {
+    padding: 20px 30px 28px  30px; 
+    display: inline-block;
+    display: center;
+}
+.item-style:hover{
+    cursor: pointer;
+    background-color:rgb(118, 118, 120) ;
+    height: 32px;
+}
+a{
+    text-decoration: none;
+    color:white
+}
+.menu-bar {
+    display:none;
+}
+@media only screen and (max-width: 1500px) {
+    .main-menu {
+        height: 100vh;
+        background-color: rgb(64, 64, 64);
+        text-align: center;
+    }
+    .item-style {
+        display: block;
+        border-bottom: 1px solid rgb(255, 255, 255, .2);
+    }
+    .menu-bar {
+        display:inline-block;
+        color: white;
+        padding-top: 15px;
+        margin-left: 25px;
+        font-size: 2em
+    }
+    .menu-bar:hover {
+        cursor:pointer;
+    }
+}
+
+/* lato-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v23-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lato-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lato-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/lato-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/lato-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/lato-v23-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+  }
+  
