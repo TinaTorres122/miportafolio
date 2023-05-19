@@ -20,7 +20,7 @@
 }
 .main-menu {
     list-style: none;
-    text-align: right;
+    text-align: center;
 }
 .item-style {
     padding: 20px 30px 28px 30px;
@@ -52,7 +52,7 @@ a {
     }
     .main-menu-block {
         height: 100vh;
-        background-color: rgb(65, 76, 92);
+        background-color: rgb(67, 71, 77);
         list-style: none;
         text-align: center;
         position: fixed;
