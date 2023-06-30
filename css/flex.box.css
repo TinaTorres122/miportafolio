@@ -76,20 +76,20 @@ h1 {
 .box-a  {
     height: 480px;
     width: 80px;
-    background-color: rgb(14, 68, 52);
+    background-color: rgb(21, 104, 79);
 }
 .box-b  {
     height: 360px;
     width: 80px;
-    background-color: rgb(41, 156, 102);
+    background-color: rgb(21, 113, 70);
 }
 .box-c  {
     height: 300px;
     width: 80px;
-    background-color: rgb(50, 238, 144);
+    background-color: rgb(13, 132, 72);
 }
 .box-d  {
     height: 200px;
     width: 80px;
-    background-color: rgb(156, 250, 181);
+    background-color: rgb(84, 153, 102);
 }
