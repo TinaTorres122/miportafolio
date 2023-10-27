@@ -6,7 +6,7 @@
 body{
     width: 100vw;
     min-height: 100vh;
-    background: #c1c2d9;
+    background: #9193a0;
 }
 .container{
     width: calc(100% - 300px);
@@ -21,6 +21,9 @@ body{
 .logo{
     font-size: 40px;
     color: #09beb2;
+}
+.icon{
+    font-size: 2.8em;
 }
 .name{
     font-size: 25px;
