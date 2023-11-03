@@ -220,12 +220,12 @@ header {
 }
 
 .lbl-descuento {
-    background-color:rgb(244, 159, 3);
+    background-color:rgb(208, 230, 251);
     padding: 5px 8px;
     border-radius: 4px;
     margin-left: 5px;
     margin-bottom: 8px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .box-precio-sin-desc {
