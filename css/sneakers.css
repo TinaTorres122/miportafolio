@@ -201,53 +201,71 @@ header {
     line-height: 1.6em;
     font-weight: 500;
 }
+
 .box-precio {
     display: flex;
     flex-direction: row;
 }
+
 .precio {
     margin-top: 25px;
     font-weight: 700;
     font-size: 2.1em;
 }
+
 .descuento {
     display: flex;
     align-items: flex-end;
     font-weight: 600;
 }
+
 .lbl-descuento {
-    background-color:azure;
+    background-color:rgb(244, 159, 3);
     padding: 5px 8px;
     border-radius: 4px;
     margin-left: 5px;
     margin-bottom: 8px;
-    color: #fc7610;
+    color: #ffffff;
 }
-.box-precio-sin-desc{
-    color: rgb(206, 212, 218);
+
+.box-precio-sin-desc {
+    color: rgb(126, 126, 126);
     font-weight: 7000;
     margin-top: 10px;
-    font-size:1.1em;
+    font-size: 1.1em;
     text-decoration: line-through;
 }
+
 .box-minus-plus{
     width: 150px;
     display: flex;
     flex-direction: row;
     margin-top: 15px;
-    background-color: aliceblue;
+    background-color: rgb(246, 246, 246);
     border-radius: 10px;
 }
+
 .box-minus, .box-cantidad, .box-plus {
-width: 50px;
-height:50px;
-display: flex;
-justify-content: center;
-align-items:center;
-font-size: 1.2em;
-font-weight: 700;
-}
-.box-minus, .box-plus {
-    color: #fc7610;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2em;
+    font-weight: 700;
 }
 
+.botonCerrar {
+    color: rgb(120,120,120);
+}
+
+.box-minus, .box-plus {
+    color: #ed860f;
+    cursor: pointer;
+}
+
+.valor-total {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 2em;
+}
