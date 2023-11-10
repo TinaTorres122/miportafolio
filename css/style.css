@@ -21,6 +21,15 @@ nav {
 
 .marca {
     margin-left: 15%;
+    display: flex;
+}
+
+.marca img {
+    margin-top: -25px;
+    width: auto;
+    height: 80px;
+    background-color: transparent;
+    animation: rotateImage 5s linear infinite;
 }
 
 .marca h1 {
@@ -116,7 +125,7 @@ ul button {
 }
 
 .box-info h2 {
-    font-size: 2.8rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: #A2ABB8;
     margin-bottom: 8px;
@@ -164,7 +173,17 @@ a {
 }
 
 .imagen img {
-    margin-top: 110px;
-    margin-left: 180px;
+    margin-top: 130px;
+    margin-left: 50px;
     height: 500px;
+}
+
+
+@keyframes rotateImage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
