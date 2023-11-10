@@ -1,169 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: arial;
+    background-color: #F7F7F7;
+    font-family: 'Poppins', sans-serif;
+    background: #013149;
 }
-body{
-    width: 100vw;
-    min-height: 100vh;
-    background: #9193a0;
+
+body {
+    width: 100%;
+    height: 100%;
 }
-.container{
-    width: calc(100% - 300px);
-    margin: 0 auto;
-}
-.nav{
+
+nav {
+    width: 100%;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
 }
-.logo{
-    font-size: 40px;
-    color: #09beb2;
-}
-.icon{
-    font-size: 2.8em;
-}
-.name{
-    font-size: 25px;
-    font-family: arial;
-    font-weight: bold;
-    margin-left: 10px;
-    color: #000;
-}
-.menu{
-    list-style: none;
-    display: inline-block;
-    margin: 0 15px;
-    font-family: arial;
-    font-size: 16px;
-    cursor: pointer;
-    color: #000;
-}
-.menu2{
-    text-decoration: none;
-    color: #000;
-    font-family: arial;
-    font-size: 16px;
-}
-.btn1{
-    border: none;
-    outline: none;
-    color: #fff;
-    background: linear-gradient(#09beb2, #04a6b1);
-    margin-left: 15px;
-    padding: 13px 35px;
-    border-radius: 30px 0 30px 30px;
-    font-size: 15px;
-    font-family: arial;
-    cursor: pointer;
-}
-.left_wraper{
-    width: 50%;
-    margin-top: 130px;
-}
-.wrapper img{
-    height: calc(100vh - 130px);
-    position: absolute;
-    bottom: 0;
-    right: 150px;
-}
-.heading{
-    font-family: arial;
-    font-size: 65px;
-    line-height: 85px;
-}
-.para{
-    font-family: arial;
-    font-size: 16px;
-    letter-spacing: 0.5px;
+
+nav h1 {
     margin-top: 20px;
-    line-height: 25px;
-    color: #000;
+    margin-left: 8%;
+    font-size: 2.2rem;
+    color: #E5F4F5;
 }
-.btn2{
-    width: 200px;
-    margin-top: 25px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: linear-gradient(#09beb2, #04a6b1);
-    padding: 15px 40px;
-    border-radius: 30px 0 30px 30px;
-    font-size: 15px;
-    font-family: arial;
-    cursor: pointer;
-}
-.printIcon{
-    position: absolute;
-    bottom: 0;
-    left: 35%;
-    font-size: 680px;
-    opacity: 0.2;
-    z-index: -1;
-    color: #09beb2;
-}
-.theme{
-    position: fixed;
-    width: 60px;
-    height: 300px;
-    top: 25%;
-    right: -60px;
-    border-left: 8px solid #09beb2;
-    cursor: pointer;
+
+ul {
+    margin-top: 20px;
+    margin-right: 8%;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    gap: 35px;
+    list-style: none;
+}
+
+ul li {
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #E5F4F5;
+    transition: transform 0.3s ease;
+}
+
+ul li::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Altura de la barra */
+    background-color: #ffffff; /* Color de la barra */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0); /* Inicialmente invisible */
+    transition: transform 0.3s ease; /* Agregar transición a la propiedad transform */
+}
+
+ul li:hover {
+    transform: translateY(-5px);
+}
+
+ul li:hover::after {
+    transform: scaleX(1); /* Hacer visible la barra en estado hover */
+}
+
+.main-content {
+    display: flex;
+    margin-top: 180px;
+    margin-left: 8%;
+}
+
+.box-left h1 {
+    font-size: 4rem;
+    color: #E5F4F5;
+    animation: moveH1 2s ease infinite;
+}
+
+/* Animación del h1  */
+
+.box-left h2 {
+    font-size: 3.3rem;
+    color: #E5F4F5;
+}
+
+.box-left p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #E5F4F5;
+}
+
+.box-left button {
+   cursor: pointer;
+   margin-top: 40px; 
+   width: 180px;
+   height: 50px;
+   border-radius: 20px;
+   border: 1px solid #E5F4F5;
+   font-size: 1rem;
+   font-weight: 700;
+   color: #E5F4F5;
+   transition: transform 0.3s ease, background-color 0.5s ease, color 0.5s ease;
+}
+
+.box-left button:hover {
+    background-color: #E5F4F5;
+    color: #013149;
+    transform: scale(1.1); /* Cambiar la escala en estado hover */
+ }
+
+ .box-right img {
+    margin-top: -80px;
+    margin-left: 50px;
+    height: 700px;
+ }
+
+ .social-media {
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+ }
+
+ .red {
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+    border: 2px solid #E5F4F5;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background: #f4f4f4;
-    border-radius: 20px 0 0 20px;
-    box-shadow: 0 0 20px #d2d2d2;
-    transition: 1s;
-}
-.theme:hover{
-    right: 0;
-    border-width: 3px;
-}
-.themeIcon{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    box-shadow: 0 0 20px #d2d2d2;
     cursor: pointer;
-    transition: 0.3s;
-}
-.themeIcon:hover{
-    transform: scale(1.2);
-}
-.night{
-    background: #000;
-}
-.green{
-    background: #09beb2;
-}
-.blue{
-    background: #179fff;
-}
-.pink{
-    background: #ff95fb;
-}
-.orange{
-    background: orange;
+    transition: transform 0.3s ease;
+ }
+
+ .red:hover {
+    transform: scale(1.1);
+ }
+
+ .red i {
+    font-size: 1.4em;
+    color: #E5F4F5;
 }
 
 
 
+ @keyframes moveH1 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Puedes ajustar la cantidad y la dirección del movimiento */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 
 
-
-
-
-
-
-
-
-
-
-/* h */
